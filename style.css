@@ -1,0 +1,173 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+/* SIDE BAR START  */
+.side-bar-image {
+    width: 58%;
+    height: 100%;
+}
+
+.side-bar-page-hover .indivisual-color-of-tag {
+    color: #009688;
+}
+.side-bar-page-hover-effect{
+    color: black;
+}
+
+.side-bar-page-hover .side-bar-page-hover-effect:hover {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+.side-bar-expand {
+    width: 280px;
+    position: fixed;
+    transition: 0.9s ;
+}
+
+.part-2 {
+    width: calc(100% - 280px);
+}
+
+@media(max-width:992px) {
+    .side-bar-expand {
+        width: 300px !important;
+        height: 100%;
+        top: 0;
+        z-index: 1000;
+        left: -300px;
+    }
+
+    .part-2 {
+        width: 100%;
+    }
+}
+
+@media(min-width:993px) {
+    .side-bar-expand {
+        left: 0px;
+    }
+}
+
+/* SIDE BAR END  */
+
+/* NAV BAR START  */
+.navbar-toggler {
+    outline: none;
+    border:0;
+}
+
+/* NAV BAR END  */
+
+/* MAIN PAGE CONTENT START*/
+.body-color {
+    background-color: rgb(235, 235, 235);
+}
+
+.filter-box-in-header {
+    border-bottom: 8px solid rgb(212, 208, 208);
+}
+
+.image-fluid {
+    width: 100%;
+}
+
+.images-opacity-effect:hover {
+    opacity: 0.8;
+}
+/* MAIN PAGE CONTENT END */
+
+/* PAGINATION BOX HOVER AND COLOR START */
+.pagination-hover-effect-on-1 {
+    color: white;
+    background-color: black;
+}
+
+.pagination-hover-effect-on-1:hover {
+    color: black;
+    background-color: rgb(187, 187, 187);
+}
+
+.pagination-hover-effect {
+    color: black;
+}
+
+.pagination-hover-effect:hover {
+    color: white;
+    background-color: black;
+}
+/* PAGINATION BOX HOVER AND COLOR END */
+
+/* PROGRESS BAR START  */
+.about-technical-box .progress-bar-black-color {
+    background-color: rgb(95, 95, 95);
+}
+
+.about-technical-box .progress-bar-white-color {
+    background-color: rgb(207, 207, 207);
+}
+
+.about-technical-box .download-btn-hover-effect:hover {
+    color: black;
+    background-color: rgb(187, 187, 187);
+}
+/* PROGRESS BAR END  */
+
+/* BOX WITH PRICE START  */
+.border-bottom-in-box {
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+.box-inline-color {
+    background-color: #009688;
+}
+
+.box-style-with-color .hover-effect-on-box-for-opacity:hover {
+    opacity: 1 !important;
+}
+
+.box-style-with-color .sign-hover-effect:hover {
+    background-color: black !important;
+    color: white !important;
+}
+/* BOX WITH PRICE END  */
+
+/* FOOTER UPPER PART START */
+.body-color-of-footer {
+    background-color: #9e9e9e;
+}
+
+.border-bottom-in-footer {
+    border-bottom: 1px solid white;
+}
+
+.send-btn-hover-effect {
+    color: white !important;
+    background-color: black !important;
+}
+
+.send-btn-hover-effect:hover {
+    color: black !important;
+    background-color: rgb(187, 187, 187) !important
+}
+/*FOOTER UPPER PART END  */
+
+/* FOOTER MIDDLE PART START  */
+.footer-middle-part-color {
+    color: white;
+    background-color: rgb(95, 95, 95);
+}
+
+.footer-end-color {
+    background-color: black;
+}
+
+.small-box-color {
+    background-color: rgb(134, 134, 134);
+}
+
+.hover-effect-on-footer-pic:hover {
+    background-color: rgb(209, 209, 209);
+}
+/* FOOTER MIDDLE PART END  */
